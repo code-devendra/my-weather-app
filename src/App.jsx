@@ -50,6 +50,7 @@ function App() {
             placeholder="Enter city name"
             className="px-4 py-3 rounded-s-md outline-none"
             value={city}
+            required
             onChange={(e) => setCity(e.target.value)}
           />
           <button
