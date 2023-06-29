@@ -119,7 +119,7 @@ function App() {
                 Wind Speed
               </p>
               <h4 className="text-black text-xl font-medium">
-                {weather.wind.speed} km/h
+                {(weather.wind.speed * 3.6).toFixed(1)} km/h
               </h4>
             </div>
           </div>
